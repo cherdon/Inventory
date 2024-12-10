@@ -1,6 +1,6 @@
 //
 //  config.xcconfig
-//  Inventory
+//  Inventori
 //
 
 // Configuration settings file format documentation can be found at:
@@ -13,14 +13,14 @@ DEVELOPMENT_TEAM = XXXXXXXXXX
 
 // These bundle identifiers must be globally unique. It's highly recommended
 // to use a reverse of your own domain name to avoid collisions.
-PRODUCT_BUNDLE_IDENTIFIER_DEBUG = com.example.zetavg.app.inventory.dev
-PRODUCT_BUNDLE_IDENTIFIER_NIGHTLY = com.example.zetavg.app.inventory.stg
-PRODUCT_BUNDLE_IDENTIFIER_RELEASE = com.example.zetavg.app.inventory
+PRODUCT_BUNDLE_IDENTIFIER_DEBUG = com.example.cherdon.app.inventori.dev
+PRODUCT_BUNDLE_IDENTIFIER_NIGHTLY = com.example.cherdon.app.inventori.stg
+PRODUCT_BUNDLE_IDENTIFIER_RELEASE = com.example.cherdon.app.inventori
 
 // These app names will be displayed on the home screen of the device.
-APP_NAME_DEBUG = Inventory (Dev)
-APP_NAME_NIGHTLY = Inventory (Nightly)
-APP_NAME_RELEASE = Inventory
+APP_NAME_DEBUG = Inventori (Dev)
+APP_NAME_NIGHTLY = Inventori (Nightly)
+APP_NAME_RELEASE = Inventori
 
 URL_SCHEME_DEBUG = zd-inv
 URL_SCHEME_DEBUG_2 = zd2-inv
@@ -30,12 +30,12 @@ URL_SCHEME_RELEASE = z-inv
 URL_SCHEME_RELEASE_2 = zx-inv
 
 // App version numbers.
-MARKETING_VERSION = 0.1.2
-CURRENT_PROJECT_VERSION = 10
+MARKETING_VERSION = 0.0.1
+CURRENT_PROJECT_VERSION = 1
 
 // App Store Connect API keys.
 // Get it at: https://appstoreconnect.apple.com/access/api
 // See: https://developer.apple.com/documentation/appstoreconnectapi/creating_api_keys_for_app_store_connect_api
-APP_STORE_CONNECT_API_KEY_ID = D83848D23
-APP_STORE_CONNECT_API_KEY_ISSUER_ID = 227b0bbf-ada8-458c-9d62-3d8022b7d07f
-APP_STORE_CONNECT_API_KEY_FILE_PATH = /.../AuthKey_D83848D23.p8
+APP_STORE_CONNECT_API_KEY_ID = 788ZA8GSMP
+APP_STORE_CONNECT_API_KEY_ISSUER_ID = 780f88cb-1bdb-4c4f-8537-da96e1f7f70d
+APP_STORE_CONNECT_API_KEY_FILE_PATH = fastlane/DevTestingAuth.p8

@@ -164,7 +164,7 @@ function OnboardingScreen({
               source={require('@app/images/app-icons/default.png')}
               style={styles.welcomeAppIcon}
             />
-            <Text style={styles.titleText}>Welcome to Inventory</Text>
+            <Text style={styles.titleText}>Welcome to Inventori</Text>
             <Text style={styles.text}>
               This is an RFID asset management app for home or small businesses.
             </Text>

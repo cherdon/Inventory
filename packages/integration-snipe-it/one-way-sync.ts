@@ -47,7 +47,7 @@ dayjs.extend(customParseFormat);
 
 program
   .description(
-    'Do a one-time, one-way sync from Snipe-IT to an Inventory CouchDB database.',
+    'Do a one-time, one-way sync from Snipe-IT to an Inventori CouchDB database.',
   )
   .requiredOption(
     '-s, --sync_id <uid>',

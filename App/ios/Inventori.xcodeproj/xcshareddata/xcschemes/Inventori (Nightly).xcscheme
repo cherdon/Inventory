@@ -7,17 +7,17 @@
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
-            buildForTesting = "NO"
+            buildForTesting = "YES"
             buildForRunning = "YES"
             buildForProfiling = "YES"
             buildForArchiving = "YES"
-            buildForAnalyzing = "NO">
+            buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "Inventory.app"
-               BlueprintName = "Inventory"
-               ReferencedContainer = "container:Inventory.xcodeproj">
+               BuildableName = "Inventori.app"
+               BlueprintName = "Inventori"
+               ReferencedContainer = "container:Inventori.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,15 +33,15 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "InventoryTests.xctest"
-               BlueprintName = "InventoryTests"
-               ReferencedContainer = "container:Inventory.xcodeproj">
+               BuildableName = "InventoriTests.xctest"
+               BlueprintName = "InventoriTests"
+               ReferencedContainer = "container:Inventori.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Nightly"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Inventory.app"
-            BlueprintName = "Inventory"
-            ReferencedContainer = "container:Inventory.xcodeproj">
+            BuildableName = "Inventori.app"
+            BlueprintName = "Inventori"
+            ReferencedContainer = "container:Inventori.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,17 +72,26 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Inventory.app"
-            BlueprintName = "Inventory"
-            ReferencedContainer = "container:Inventory.xcodeproj">
+            BuildableName = "Inventori.app"
+            BlueprintName = "Inventori"
+            ReferencedContainer = "container:Inventori.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
+            BuildableName = "Inventori.app"
+            BlueprintName = "Inventori"
+            ReferencedContainer = "container:Inventori.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Nightly"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

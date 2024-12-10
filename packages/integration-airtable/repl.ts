@@ -9,7 +9,7 @@ import repl from 'repl';
 import AirtableAPI, { AirtableAPIError } from './lib/AirtableAPI';
 import createInventoryBase from './lib/createInventoryBase';
 
-program.description('Inventory Airtable Integration REPL.');
+program.description('Inventori Airtable Integration REPL.');
 
 program.parse(process.argv);
 
@@ -33,7 +33,7 @@ const context = {
 Object.assign(global, context);
 
 console.log('');
-console.log('Welcome to Inventory Airtable Integration REPL.');
+console.log('Welcome to Inventori Airtable Integration REPL.');
 console.log('');
 console.log(
   `You have the following objects and functions prepared and ready to use: ${Object.entries(

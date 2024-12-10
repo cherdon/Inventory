@@ -124,7 +124,7 @@ export default async function createInventoryBase({
       name: 'Delete',
       type: 'checkbox',
       description:
-        'Deleting an record on Airtable will not actually delete it in Inventory, and it may be added back on the next sync. To actually delete a record, check this checkbox, and it will be deleted both on Inventory and the Airtable base on the next sync.',
+        'Deleting an record on Airtable will not actually delete it in Inventori, and it may be added back on the next sync. To actually delete a record, check this checkbox, and it will be deleted both on Inventori and the Airtable base on the next sync.',
       options: {
         color: 'redBright',
         icon: 'xCheckbox',

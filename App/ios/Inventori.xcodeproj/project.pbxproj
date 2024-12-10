@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* InventoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* InventoryTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-Inventory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-Inventory.a */; };
+		00E356F31AD99517003FC87E /* InventoriTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* InventoriTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-Inventori.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-Inventori.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -28,7 +28,7 @@
 		197AF1A328CA73B200F7066A /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 197AF1A028CA73B200F7066A /* beep.mp3 */; };
 		197D8A3828C341630048042D /* RCTRFIDWithUHFBLEModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 197D8A3728C341630048042D /* RCTRFIDWithUHFBLEModule.m */; };
 		197D8A3928C341630048042D /* RCTRFIDWithUHFBLEModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 197D8A3728C341630048042D /* RCTRFIDWithUHFBLEModule.m */; };
-		7699B88040F8A987B510C191 /* libPods-Inventory-InventoryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Inventory-InventoryTests.a */; };
+		7699B88040F8A987B510C191 /* libPods-Inventori-InventoriTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Inventori-InventoriTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +38,7 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = Inventory;
+			remoteInfo = Inventori;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -56,15 +56,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* InventoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InventoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* InventoriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InventoriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* InventoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InventoryTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Inventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Inventory/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Inventory/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Inventory/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Inventory/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Inventory/main.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* InventoriTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InventoriTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Inventori.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inventori.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Inventori/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Inventori/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Inventori/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Inventori/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Inventori/main.m; sourceTree = "<group>"; };
 		1925244C2AAB855300F85C2F /* RCTNativeEventEmitterModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTNativeEventEmitterModule.h; sourceTree = "<group>"; };
 		1925244D2AAB858F00F85C2F /* RCTNativeEventEmitterModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTNativeEventEmitterModule.m; sourceTree = "<group>"; };
 		1925A26728E0AB5F00FEE3AE /* RCTNSLinguisticTaggerModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTNSLinguisticTaggerModule.h; sourceTree = "<group>"; };
@@ -86,15 +86,15 @@
 		197AF1A028CA73B200F7066A /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
 		197D8A3628C340FA0048042D /* RCTRFIDWithUHFBLEModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTRFIDWithUHFBLEModule.h; sourceTree = "<group>"; };
 		197D8A3728C341630048042D /* RCTRFIDWithUHFBLEModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTRFIDWithUHFBLEModule.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-Inventory-InventoryTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Inventory-InventoryTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-Inventory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inventory.debug.xcconfig"; path = "Target Support Files/Pods-Inventory/Pods-Inventory.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-Inventory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inventory.release.xcconfig"; path = "Target Support Files/Pods-Inventory/Pods-Inventory.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-Inventory-InventoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inventory-InventoryTests.debug.xcconfig"; path = "Target Support Files/Pods-Inventory-InventoryTests/Pods-Inventory-InventoryTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-Inventory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Inventory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6965D34BFDD22BD203967722 /* Pods-Inventory.nightly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inventory.nightly.xcconfig"; path = "Target Support Files/Pods-Inventory/Pods-Inventory.nightly.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Inventory/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-Inventory-InventoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inventory-InventoryTests.release.xcconfig"; path = "Target Support Files/Pods-Inventory-InventoryTests/Pods-Inventory-InventoryTests.release.xcconfig"; sourceTree = "<group>"; };
-		E93351BFD9AE97A5CC92FA8E /* Pods-Inventory-InventoryTests.nightly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inventory-InventoryTests.nightly.xcconfig"; path = "Target Support Files/Pods-Inventory-InventoryTests/Pods-Inventory-InventoryTests.nightly.xcconfig"; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-Inventori-InventoriTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Inventori-InventoriTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-Inventori.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inventori.debug.xcconfig"; path = "Target Support Files/Pods-Inventori/Pods-Inventori.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-Inventori.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inventori.release.xcconfig"; path = "Target Support Files/Pods-Inventori/Pods-Inventori.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-Inventori-InventoriTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inventori-InventoriTests.debug.xcconfig"; path = "Target Support Files/Pods-Inventori-InventoriTests/Pods-Inventori-InventoriTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-Inventori.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Inventori.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6965D34BFDD22BD203967722 /* Pods-Inventori.nightly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inventori.nightly.xcconfig"; path = "Target Support Files/Pods-Inventori/Pods-Inventori.nightly.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Inventori/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-Inventori-InventoriTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inventori-InventoriTests.release.xcconfig"; path = "Target Support Files/Pods-Inventori-InventoriTests/Pods-Inventori-InventoriTests.release.xcconfig"; sourceTree = "<group>"; };
+		E93351BFD9AE97A5CC92FA8E /* Pods-Inventori-InventoriTests.nightly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inventori-InventoriTests.nightly.xcconfig"; path = "Target Support Files/Pods-Inventori-InventoriTests/Pods-Inventori-InventoriTests.nightly.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-Inventory-InventoryTests.a in Frameworks */,
+				7699B88040F8A987B510C191 /* libPods-Inventori-InventoriTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,20 +111,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-Inventory.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* libPods-Inventori.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* InventoryTests */ = {
+		00E356EF1AD99517003FC87E /* InventoriTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* InventoryTests.m */,
+				00E356F21AD99517003FC87E /* InventoriTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = InventoryTests;
+			path = InventoriTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -135,7 +135,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* Inventory */ = {
+		13B07FAE1A68108700A75B9A /* Inventori */ = {
 			isa = PBXGroup;
 			children = (
 				195A022D2B597C1D00FF2B0F /* Libraries */,
@@ -147,7 +147,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = Inventory;
+			name = Inventori;
 			sourceTree = "<group>";
 		};
 		1938EC8D28A428DD005192B7 /* ReactViews */ = {
@@ -234,8 +234,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-Inventory.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-Inventory-InventoryTests.a */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-Inventori.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-Inventori-InventoriTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -246,8 +246,8 @@
 				1962F0C12A35DF72003E3ADE /* config.xcconfig */,
 				197AF19128CA687400F7066A /* Sounds */,
 				1938EC8D28A428DD005192B7 /* ReactViews */,
-				13B07FAE1A68108700A75B9A /* Inventory */,
-				00E356EF1AD99517003FC87E /* InventoryTests */,
+				13B07FAE1A68108700A75B9A /* Inventori */,
+				00E356EF1AD99517003FC87E /* InventoriTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -260,8 +260,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Inventory.app */,
-				00E356EE1AD99517003FC87E /* InventoryTests.xctest */,
+				13B07F961A680F5B00A75B9A /* Inventori.app */,
+				00E356EE1AD99517003FC87E /* InventoriTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -269,12 +269,12 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-Inventory.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-Inventory.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-Inventory-InventoryTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-Inventory-InventoryTests.release.xcconfig */,
-				6965D34BFDD22BD203967722 /* Pods-Inventory.nightly.xcconfig */,
-				E93351BFD9AE97A5CC92FA8E /* Pods-Inventory-InventoryTests.nightly.xcconfig */,
+				3B4392A12AC88292D35C810B /* Pods-Inventori.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-Inventori.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-Inventori-InventoriTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-Inventori-InventoriTests.release.xcconfig */,
+				6965D34BFDD22BD203967722 /* Pods-Inventori.nightly.xcconfig */,
+				E93351BFD9AE97A5CC92FA8E /* Pods-Inventori-InventoriTests.nightly.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -282,9 +282,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* InventoryTests */ = {
+		00E356ED1AD99517003FC87E /* InventoriTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "InventoryTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "InventoriTests" */;
 			buildPhases = (
 				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -298,14 +298,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = InventoryTests;
-			productName = InventoryTests;
-			productReference = 00E356EE1AD99517003FC87E /* InventoryTests.xctest */;
+			name = InventoriTests;
+			productName = InventoriTests;
+			productReference = 00E356EE1AD99517003FC87E /* InventoriTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* Inventory */ = {
+		13B07F861A680F5B00A75B9A /* Inventori */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Inventory" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Inventori" */;
 			buildPhases = (
 				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -321,9 +321,9 @@
 			);
 			dependencies = (
 			);
-			name = Inventory;
-			productName = Inventory;
-			productReference = 13B07F961A680F5B00A75B9A /* Inventory.app */;
+			name = Inventori;
+			productName = Inventori;
+			productReference = 13B07F961A680F5B00A75B9A /* Inventori.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -343,7 +343,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Inventory" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Inventori" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -356,8 +356,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* Inventory */,
-				00E356ED1AD99517003FC87E /* InventoryTests */,
+				13B07F861A680F5B00A75B9A /* Inventori */,
+				00E356ED1AD99517003FC87E /* InventoriTests */,
 			);
 		};
 /* End PBXProject section */
@@ -410,15 +410,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Inventory/Pods-Inventory-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Inventori/Pods-Inventori-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Inventory/Pods-Inventory-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Inventori/Pods-Inventori-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Inventory/Pods-Inventory-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Inventori/Pods-Inventori-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -436,7 +436,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Inventory-InventoryTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Inventori-InventoriTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -458,7 +458,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Inventory-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Inventori-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -471,15 +471,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Inventory-InventoryTests/Pods-Inventory-InventoryTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Inventori-InventoriTests/Pods-Inventori-InventoriTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Inventory-InventoryTests/Pods-Inventory-InventoryTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Inventori-InventoriTests/Pods-Inventori-InventoriTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Inventory-InventoryTests/Pods-Inventory-InventoryTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Inventori-InventoriTests/Pods-Inventori-InventoriTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
@@ -488,15 +488,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Inventory/Pods-Inventory-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Inventori/Pods-Inventori-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Inventory/Pods-Inventory-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Inventori/Pods-Inventori-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Inventory/Pods-Inventory-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Inventori/Pods-Inventori-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
@@ -505,15 +505,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Inventory-InventoryTests/Pods-Inventory-InventoryTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Inventori-InventoriTests/Pods-Inventori-InventoriTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Inventory-InventoryTests/Pods-Inventory-InventoryTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Inventori-InventoriTests/Pods-Inventori-InventoriTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Inventory-InventoryTests/Pods-Inventory-InventoryTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Inventori-InventoriTests/Pods-Inventori-InventoriTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -545,7 +545,7 @@
 				197D8A3928C341630048042D /* RCTRFIDWithUHFBLEModule.m in Sources */,
 				1925A26A28E0ABE500FEE3AE /* RCTNSLinguisticTaggerModule.m in Sources */,
 				1925244F2AAB858F00F85C2F /* RCTNativeEventEmitterModule.m in Sources */,
-				00E356F31AD99517003FC87E /* InventoryTests.m in Sources */,
+				00E356F31AD99517003FC87E /* InventoriTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,7 +570,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* Inventory */;
+			target = 13B07F861A680F5B00A75B9A /* Inventori */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -578,7 +578,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-Inventory-InventoryTests.debug.xcconfig */;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-Inventori-InventoriTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -589,7 +589,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = InventoryTests/Info.plist;
+				INFOPLIST_FILE = InventoriTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -603,13 +603,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inventory.app/Inventory";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inventori.app/Inventori";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-Inventory-InventoryTests.release.xcconfig */;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-Inventori-InventoriTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -617,7 +617,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = InventoryTests/Info.plist;
+				INFOPLIST_FILE = InventoriTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -631,13 +631,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inventory.app/Inventory";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inventori.app/Inventori";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-Inventory.debug.xcconfig */;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-Inventori.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-dark AppIcon-black";
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-dev";
@@ -649,7 +649,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = Inventory/Info.plist;
+				INFOPLIST_FILE = Inventori/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -730,7 +730,7 @@
 				);
 				PRODUCT_BUNDLE_DISPLAY_NAME = "$(APP_NAME_DEBUG)";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER_DEBUG)";
-				PRODUCT_NAME = Inventory;
+				PRODUCT_NAME = Inventori;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
@@ -745,7 +745,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-Inventory.release.xcconfig */;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-Inventori.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-dark AppIcon-black";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -756,7 +756,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = Inventory/Info.plist;
+				INFOPLIST_FILE = Inventori/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -837,7 +837,7 @@
 				);
 				PRODUCT_BUNDLE_DISPLAY_NAME = "$(APP_NAME_RELEASE)";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER_RELEASE)";
-				PRODUCT_NAME = Inventory;
+				PRODUCT_NAME = Inventori;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
@@ -917,7 +917,7 @@
 		};
 		1962F0C32A35E624003E3ADE /* Nightly */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6965D34BFDD22BD203967722 /* Pods-Inventory.nightly.xcconfig */;
+			baseConfigurationReference = 6965D34BFDD22BD203967722 /* Pods-Inventori.nightly.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-dark AppIcon-black";
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-stg";
@@ -928,7 +928,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = Inventory/Info.plist;
+				INFOPLIST_FILE = Inventori/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1009,7 +1009,7 @@
 				);
 				PRODUCT_BUNDLE_DISPLAY_NAME = "$(APP_NAME_NIGHTLY)";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER_NIGHTLY)";
-				PRODUCT_NAME = Inventory;
+				PRODUCT_NAME = Inventori;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
@@ -1023,7 +1023,7 @@
 		};
 		1962F0C42A35E624003E3ADE /* Nightly */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E93351BFD9AE97A5CC92FA8E /* Pods-Inventory-InventoryTests.nightly.xcconfig */;
+			baseConfigurationReference = E93351BFD9AE97A5CC92FA8E /* Pods-Inventori-InventoriTests.nightly.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -1031,7 +1031,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = InventoryTests/Info.plist;
+				INFOPLIST_FILE = InventoriTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1044,8 +1044,8 @@
 					"$(inherited)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Inventory;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inventory.app/Inventory";
+				PRODUCT_NAME = Inventori;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inventori.app/Inventori";
 			};
 			name = Nightly;
 		};
@@ -1191,7 +1191,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "InventoryTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "InventoriTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1201,7 +1201,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Inventory" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Inventori" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1211,7 +1211,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Inventory" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Inventori" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

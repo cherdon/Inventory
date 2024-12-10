@@ -38,7 +38,7 @@ export const APP_ICONS: ReadonlyArray<{
   //   isDefault: true,
   // },
   {
-    name: 'Inventory',
+    name: 'Inventori',
     value: 'AppIcon',
     preview: require('@app/images/app-icons/default.png'),
   },
@@ -86,7 +86,7 @@ export const APP_ICONS: ReadonlyArray<{
     if (icon.name === 'Nightly') {
       return { ...icon, name: 'Default', isDefault: true };
     }
-  } else if (icon.name === 'Inventory') {
+  } else if (icon.name === 'Inventori') {
     return { ...icon, name: 'Default', isDefault: true };
   }
 

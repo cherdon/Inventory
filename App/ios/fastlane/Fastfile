@@ -60,7 +60,7 @@ platform :ios do
       ci_output_data[:build_number] = build_number
 
       increment_build_number(
-        xcodeproj: "Inventory.xcodeproj",
+        xcodeproj: "Inventori.xcodeproj",
         build_number: build_number,
       )
     end
@@ -69,7 +69,7 @@ platform :ios do
       # Use Manual Code Signing
       update_code_signing_settings(
         use_automatic_signing: false,
-        path: "Inventory.xcodeproj",
+        path: "Inventori.xcodeproj",
       )
 
       # Sync Certificates and Provisioning Profiles for Building
@@ -81,7 +81,7 @@ platform :ios do
       )
       development_profile_path = ENV["sigh_#{configuration.attributes['PRODUCT_BUNDLE_IDENTIFIER_NIGHTLY']}_development_profile-path"]
       update_project_provisioning(
-        xcodeproj: "Inventory.xcodeproj",
+        xcodeproj: "Inventori.xcodeproj",
         build_configuration: "Nightly",
         profile: development_profile_path
       )
@@ -96,8 +96,8 @@ platform :ios do
       appstore_certificate_name = ENV["sigh_#{configuration.attributes['PRODUCT_BUNDLE_IDENTIFIER_NIGHTLY']}_appstore_certificate-name"]
 
       build_app(
-        workspace: "Inventory.xcworkspace",
-        scheme: "Inventory (Nightly)",
+        workspace: "Inventori.xcworkspace",
+        scheme: "Inventori (Nightly)",
         export_method: "app-store",
         export_options: {
           provisioningProfiles: lane_context['MATCH_PROVISIONING_PROFILE_MAPPING'],
@@ -107,8 +107,8 @@ platform :ios do
     else
       # Use Automatic Code Signing
       build_app(
-        workspace: "Inventory.xcworkspace",
-        scheme: "Inventory (Nightly)",
+        workspace: "Inventori.xcworkspace",
+        scheme: "Inventori (Nightly)",
         xcargs: "-allowProvisioningUpdates",
       )
     end
@@ -120,7 +120,7 @@ platform :ios do
 
       backup_xcarchive(
         destination: File.join(__dir__, '..'),
-        zip_filename: "Inventory (Nightly)",
+        zip_filename: "Inventori (Nightly)",
         versioned: false,
         zip: false,
       )
@@ -158,7 +158,7 @@ platform :ios do
       ci_output_data[:build_number] = build_number
 
       increment_build_number(
-        xcodeproj: "Inventory.xcodeproj",
+        xcodeproj: "Inventori.xcodeproj",
         build_number: build_number,
       )
     end
@@ -167,7 +167,7 @@ platform :ios do
       # Use Manual Code Signing
       update_code_signing_settings(
         use_automatic_signing: false,
-        path: "Inventory.xcodeproj",
+        path: "Inventori.xcodeproj",
       )
 
       # Sync Certificates and Provisioning Profiles for Building
@@ -179,7 +179,7 @@ platform :ios do
       )
       development_profile_path = ENV["sigh_#{configuration.attributes['PRODUCT_BUNDLE_IDENTIFIER_RELEASE']}_development_profile-path"]
       update_project_provisioning(
-        xcodeproj: "Inventory.xcodeproj",
+        xcodeproj: "Inventori.xcodeproj",
         build_configuration: "Release",
         profile: development_profile_path
       )
@@ -194,8 +194,8 @@ platform :ios do
       appstore_certificate_name = ENV["sigh_#{configuration.attributes['PRODUCT_BUNDLE_IDENTIFIER_RELEASE']}_appstore_certificate-name"]
 
       build_app(
-        workspace: "Inventory.xcworkspace",
-        scheme: "Inventory",
+        workspace: "Inventori.xcworkspace",
+        scheme: "Inventori",
         export_method: "app-store",
         export_options: {
           provisioningProfiles: lane_context['MATCH_PROVISIONING_PROFILE_MAPPING'],
@@ -205,8 +205,8 @@ platform :ios do
     else
       # Use Automatic Code Signing
       build_app(
-        workspace: "Inventory.xcworkspace",
-        scheme: "Inventory",
+        workspace: "Inventori.xcworkspace",
+        scheme: "Inventori",
         xcargs: "-allowProvisioningUpdates",
       )
     end
@@ -218,7 +218,7 @@ platform :ios do
 
       backup_xcarchive(
         destination: File.join(__dir__, '..'),
-        zip_filename: "Inventory",
+        zip_filename: "Inventori",
         versioned: false,
         zip: false,
       )

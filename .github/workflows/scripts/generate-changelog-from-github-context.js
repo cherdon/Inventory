@@ -171,7 +171,7 @@ const gh = JSON.parse(githubContextJson);
   const footer = `
 ---
 
-Inventory
+Inventori
 
  • GitHub: ${gh.event.repository.html_url}
   `;

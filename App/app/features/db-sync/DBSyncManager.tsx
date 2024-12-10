@@ -145,7 +145,7 @@ export default function DBSyncManager() {
             dispatch(
               actions.dbSync.setServerLastErrorMessage([
                 server.id,
-                'The database does not have a valid config. Please make sure that this is an Inventory database.',
+                'The database does not have a valid config. Please make sure that this is an Inventori database.',
               ]),
             );
             return null;

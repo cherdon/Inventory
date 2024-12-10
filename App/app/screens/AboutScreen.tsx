@@ -89,7 +89,7 @@ function AboutScreen({
           <TableView.Item detail={gitInfoStr}>Code Version</TableView.Item>
           <TableView.Item
             arrow
-            detail="zetavg/Inventory"
+            detail="cherdon/Inventori"
             onPress={() => Linking.openURL(URLS.github_project)}
           >
             GitHub

@@ -20,7 +20,7 @@ app.get('/:database_name', async (req, res) => {
     res.status(200).send('It Works!');
   } catch (error) {
     if (error.message === 'not_found' || error.message === 'missing' || error.message === 'deleted') {
-      console.error('Error getting Inventory config:', error);
+      console.error('Error getting Inventori config:', error);
       res.status(404).send('Not Found');
     } else {
       console.error('Error:', error);

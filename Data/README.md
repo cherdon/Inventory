@@ -1,4 +1,4 @@
-# Inventory Data
+# Inventori Data
 
 Shared data schema and data processing logic for Inventory.
 

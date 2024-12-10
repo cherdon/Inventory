@@ -77,7 +77,7 @@ function ImportItemsFromCsvScreen({
       items.map(it => itemToCsvRow(it, { db, loadedCollectionsMap })),
     );
     const sampleCsv = jsonToCSV(data);
-    const sampleFilePath = `${RNFS.TemporaryDirectoryPath}/Inventory - Import Items Template.csv`;
+    const sampleFilePath = `${RNFS.TemporaryDirectoryPath}/Inventori - Import Items Template.csv`;
     await RNFS.writeFile(sampleFilePath, sampleCsv, 'utf8');
 
     Share.open({

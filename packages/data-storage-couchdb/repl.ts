@@ -20,7 +20,7 @@ import {
 } from './lib/functions/couchdb-utils';
 
 program
-  .description('Inventory CouchDB Data REPL.')
+  .description('Inventori CouchDB Data REPL.')
   .requiredOption(
     '-d, --db_uri <uri>',
     'Database URI, e.g. http://localhost:5984/inventory.',
@@ -249,7 +249,7 @@ getPassword(async () => {
   Object.assign(global, context);
 
   console.log('');
-  console.log('Welcome to Inventory CouchDB Data REPL.');
+  console.log('Welcome to Inventori CouchDB Data REPL.');
   console.log('');
   console.log(
     `You have the following objects and functions prepared and ready to use: ${Object.entries(

@@ -1,4 +1,4 @@
-# Inventory
+# Inventori
 
 ## Setup
 
@@ -18,7 +18,7 @@ yarn start
 
 1. `cp ios/config.xcconfig.sample ios/config.xcconfig` and modify the content of `ios/config.xcconfig` to fit your setup.
 2. `yarn run pod-install`.
-3. `open ios/Inventory.xcworkspace`.
+3. `open ios/Inventori.xcworkspace`.
 4. In Xcode, select a scheme and target, then run.
 
 ### For Android

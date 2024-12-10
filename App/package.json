@@ -1,13 +1,15 @@
 {
-  "name": "Inventory",
+  "name": "Inventori",
   "version": "0.0.1",
   "private": true,
+  "license": "Proprietary",
   "engines": {
     "node": "18.15.0"
   },
   "scripts": {
     "android": "react-native run-android --appIdSuffix dev",
     "pod-install": "bash scripts/pod-install.sh",
+    "pod-clean": "rm -rf node_modules ios/Pods",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "prestart": "sb-rn-get-stories",
